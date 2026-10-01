@@ -1,8 +1,11 @@
- JVM A                                      JVM B
- Producer                                   Consumer
-    │                                          │
-    │ MappedByteBuffer                         │ MappedByteBuffer
-    ▼                                          ▼
+
+```markdown
+```ascii
+JVM A                                      JVM B
+Producer                                   Consumer
+   │                                          │
+   │ MappedByteBuffer                         │ MappedByteBuffer
+   ▼                                          ▼
 ┌──────────────────────────────────────────────────────┐
 │                 shared-memory.dat                    │
 │                                                      │
