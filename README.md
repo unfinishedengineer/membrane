@@ -1,6 +1,5 @@
 
 ```markdown
-```ascii
 JVM A                                      JVM B
 Producer                                   Consumer
    │                                          │
